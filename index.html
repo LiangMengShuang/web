@@ -1,241 +1,436 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>网页制作</title>
-<meta charset="utf-8">
- <style type="text/css">
-      html{
-          font:12px 'Arial';
-          color:gray;
-          line-height: 2em;
-      }
-      .b{
-          color:#fab306;
-      }
-      .b:hover{
-        text-decoration: none;
-      }
-      .a{
-          color:white;
-      }
-      a{
-          color:#727272;
-      }
-      a:link{
-          text-decoration: none;   
-      }
-      .a:hover{
-          text-decoration: none;
-          color:#b9f605;
-      }
-      a:hover{
-          text-decoration: underline;
-      }
-      .c{
-          font:bolder 14px;
-          color:#b9f605;
-      }
-      .c:hover{
-            text-decoration: none;
-      }
-      #a{
-        font:bolder 16px "微软雅黑";
-        color:#65a7d0;
-      }
-      ul{
-            list-style-type:none;      
-        }
-      </style>
+<style type="text/css">
+body{
+     font:12px "宋体";
+     text-align: center;
+     color:#522a06; 
+     padding: 0px;
+     text-align: center; 
+     background-image:  url(images/bodybg.gif); 
+}
+a:link{
+      color:#522a06;
+      text-decoration: none;
+}
+a：hover{
+     text-decoration: underline;
+}
 
 
-     </style>
+#header{
+         height: 205px;
+        background-repeat: no-repeat;
+        background-image: url(images/bg.gif);
+        background-position:top center;
+
      
+}
+#banner{
+         
+     height: 164px;
+}
+#logo{
+     position: absolute;
+     top:38px;
+     left:120px;
+}
+#nav{
+     height: 40px;
+     background-image: url(images/nav.jpg);
+     float:left;
+     width:100%;
+     }
+li{
+    float:left;
+    list-style-type: none;
+}
+#ul{
+    position: relative;
+    top:10px;
+}
+#w{
+     font-weight:1px;
+     color:#fff; 
+}
+ #w:hover{
+    color:#f9f603;
+    text-decoration: none;
+}
+#h{
+    color:#f9f603;
+}
+#sousuo{
+    height: 19px;
+    width:140px;
+    background-color: #f8f5ee;
+}
+#so{
+    width: 44px;
+    height: 21px;
+    background-color: #000;
+}
+.value{
+     color:#fff;
+     border:1px solid #f8f5ee;
+}
+
+#p{
+    background-image:url(images/news_bg.png);
+   float:left;
+    width: 324px;
+    height: 243px;
+}
+#news_pic{
+    position: relative;
+    top:35px;
+    left:100px;
+    margin: 10px;
+    width: 300px;
+    height:200px;
+    float: left:
+}
+#tu{
+   margin: 10px;
+}
+#news_list{
+    width:330px;
+    margin-left: 38px;
+    float:left;
+    }
+    #content{
+    width: 1000px;
+    position: center;
+    clear:left;
+    clear:right;
+}
+#biaoti{
+    background-image: url(images/change.png);
+    position:absolute;
+    left:330px;
+    top:20px;
+    margin: 10px;
+    clear: left;    
+}
+#more{
+
+    float:right;
+    position: absolute;
+    left:630px;
+    top:30px;
+}
+#li{
+    list-style-type: square;
+    line-height:30px; 
+   }
+#lo{
+    position: absolute;
+    left:300px;
+    top:45px;
+    width:355px;
+    margin: 10px; 
+    }
+#newes_announce{
+    width:277px;
+    margin-top: 20px;
+    float:right;
+   
+}
+#one{
+    position:relative;
+    left:800px;
+    position: absolute;
+    top:30px;
+}
+#list{
+    width:285px;
+    height: 210px;
+    background-image: url(images/board_bg.png);
+    position: relative;
+    left:715px;
+   position: absolute;
+   top:60px;
+
+}
+
+#wo{
+    position: absolute;
+    left:700px;
+    top:45px;
+    width:300px;
+}
+#content_bottom_left{
+    width: 340px;
+    height: 54px;
+    background-image: url(images/academic.png);
+}
+#two{
+    position: relative;
+    left:310px;
+    position: absolute;
+    top:300px;
+}
+#lp{
+    width: 340px;
+    float:right;
+    position: relative;
+    left: 40px;}
+#xin{
+    width: 340px;
+    margin-left: 25px;   
+} 
+#three{
+    background-image: url(images/book_news.png);
+    height: 54px;
+    position: relative;
+    left:340px;
+    top:-60px;
+}
+#t{
+
+   position: relative;
+   left:158px;
+   top:-170px;
+
+}
+#ly{
+    position: relative;
+    top:-160px;
+    float:right;  
+    width:340px;
+}
+#zhan{
+    width: 340px;
+    clear:left;
+    clear:right;  
+}
+#bei{
+    background-image: url(images/fengcai_bg1.png);
+    float:right;
+    position: relative;
+    left: -260px;
+    top:-160px;
+}
+#pai{
+    float:left;
+    position: relative;
+    top:-4px;
+    margin-bottom:3px;
+     margin-left:-15px;
+}
+#lk{
+    background-image: url(images/fengcai_bg2.png);
+     width: 679px;
+     height: 400px;
+     float: left;
+    background-repeat: repeat-x;
+    position: relative;
+    top:-200px;
+}
+#y{
+     margin-bottom: 3px;
+     margin-left: 8px;
+     margin-top:-4px;
+}
+#v{
+    margin-left: 8px;
+    margin-bottom:3px;
+    margin-top: -4px;
+
+}
+#content_bottom_right{
+                      background-image: url(images/show_bg.png);
+                      height:362px;
+                      width:280px;
+                      position: relative;
+                      left:700px;
+                      top:-30px;
+}
+#ting{
+    background-image: url(images/show.png);
+    position: relative;
+    top:-870px;
+    left:650px;
+}
+#ren{
+    background-image: url(images/mingjia.jpg);
+    position: relative;
+    top:-820px;
+    left:710px;
+}
+#yanse{
+    position: relative;
+    left:5px;
+    top:90px;
+}
+#fu{
+    position: relative;
+    top:-620px;
+
+}
+#lun{
+ position: relative;
+ top:-630px;
+ left:-56px;
+
+}
+#se{
+    color:red;
+}
+#fi{
+     position: relative;
+     top:520px;
+     left:400px;
+
+   }
+#foot{
+     height:105px;
+     clear:left;
+     clear:right;
+}
+#jing{
+    background-image: url(images/foot.gif);
+    position: relative;
+    top:-330px;
+    width:1360px;
+}
+#ri{
+     position: relative;
+     top:-425px;
+
+}
+#ok{
+background-image: url(images/line.jpg);
+clear:left;
+clear:right;
+position: relative;
+left:-450px;
+top:-400px;
+
+}
+#wan{
+    position: relative;
+    top:-400px;
+    left:-40px;
+}
+  </style>
+
+
+
 </head>
 <body>
-<table width="100%">
-<tr>
-<td background="images/bg.gif" width="100%" height="300px">
-<table width="60%"" height="250px" align="center">
-<tr>
-<td background="images/banner.jpg" width="60%" height="295px" align="center">
-<table width="100%" height="290px">
-<tr>
-<td height="15px">
-</td>
-</tr>
-<tr valign="top">
-<td><a href="content.html" class="c">首页</a></td>
-<td><a href="content.html" class="a">学校概况</a></td>
-<td><a href="content.html" class="a">规章制度</a></td>
-<td><a href="content.html" class="a">德育网</a></td>
-<td><a href="content.html" class="a">教研网</a></td>
-<td><a href="content.html" class="a">名师风采</a></td>
-<td><a href="content.html" class="a">高考专栏</a></td>
-<td><a href="content.html" class="a">图书馆</a></td>
-<td><a href="content.html" class="a">校友会</a></td>
-<td><a href="content.html" class="a">河中论坛</a></td>
-<td><a href="content.html" class="a">查询系统</a></td>
-<td><a href="content.html" class="b">东校区</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<table width="60%" align="center">
-<tr>
-<td><img src="images/pic.jpg" height="200" width="200" width="100%"/>
-</td>
-<td height="50px" valign="top"><img src="images/news_pic_title.gif" width="100%" valign="top" height="50px" width="60px" alt="河中新闻" usemap="#Map1"/>
-<map name="Map1" id="Map1">
-<area shape="rect" coords="386,21,430,44" href="list.htnl?type="河中新闻">
-</map>
-<ul type="square">
-<li><a href="content.html" id="a">【家长学校1306期】大学主要的专业介绍</a>2015-12-10</li>
-<li><a href="content.html" >[图文]化学老师于文英举办观摩课活动</a>2015-12-10</li>
-<li><a href="content.html" >[图文]本部数学组组织公开课教学</a>2015-12-10</li>
-<li><a href="content.html" >[图文]校工会组织教职工广场舞展示、交流活动</a>2015-12-10</li>
-<li><a href="content.html" >[图文]生物教师开展观摩课活动</a>2015-12-10</li>
-<li><a href="content.html" >[图文]首届“五四杯”青年篮球对抗赛成功举办</a>2015-12-10</li>
-<li><a href="content.html" >[图文]高二理科部召开第二次月考表彰大会</a>2015-12-10</li>
-<li><a href="content.html" >[图文]加强消防培训，确保学生安全</a>2015-12-10</li>
-</ul>
-</td>
-<td valign="top" height="50px">
-<img src="images/notice_title.gif" width="180px" height="50px"/>
-<ul type="square">
-<li><a href="content.html" >河北中学男子篮球体育特长生招生简章（2015-04-11）</a></li>
-<li><a href="content.html" >河北中学音乐特长生复试名单（2015-04-08）</a></li>
-<li><a href="content.html" >河北中学2015年艺术特长生招生简章（2015-03-01）</a></li>
-</ul>
-</td>
-</tr>
-</table>
-<table width="60%" align="center">
-<tr valign="top">
-<td colspan="2" width="50%">
-<img src="images/news_jy_title.gif" alt="河中教研网" usemap="#Map2">
-<map name="Map2" id="Map2">
-<area shape="rect" coords="439,11,481,33" href="list.htnl?type=河中教研">
-</map>
-</td>
-<td colspan="2" width="50%">
-<img src="images/news_dy_title.gif" alt="河中德育网" usemap="#Map3">
-<map name="Map3" id="Map3">
-<area shape="rect" coords="439,11,481,33" href="list.htnl?type="河中德育">
-</map>
-</td>
-</tr>
-<tr width="200px" height="250px">
-<td width="200px" height="250px">
-<img src="images/news_jy_pic.gif"></td>
-<td>
-<ul type="square">
-<li><a href="content.html">[公开课教学][图文]化学老师于文英举办观摩课活动</a></li>
-<li><a href="content.html">[公开课教学][图文]本部数学组组织公开课教学校调研</a></li>
-<li><a href="content.html">[公开课教学][图文]化学老师于文英举办观摩课活动</a></li>
-<li><a href="content.html">[公开课教学][图文]生物老师开展观摩活动</a></li>
-<li><a href="content.html">[教学交流][组图]文科部高一年级召开期中考试分析...</a></li>
-<li><a href="content.html">[教与学][图文]【教与学】打破思维定势走出误区...</a></li>
-<li><a href="content.html">[教学交流][组图]石家庄市教科所专家来我校...</a></li>
-</ul>
-</td>
-<td width="200px" height="250px"><img src="images/news_dy_pic.gif"></td>
-<td>
-<ul type="square">
-<li><a href="content.html">[公开课教学][图文]化学老师于文英举办观摩课活动</a></li>
-<li><a href="content.html">[公开课教学][图文]本部数学组组织公开课教学校调研</a></li>
-<li><a href="content.html">[公开课教学][图文]生物老师开展观摩课活动</a></li>
-<li><a href="content.html">[教学交流][组图]文科部高一年级召开期中考试分析</a></li>
-<li><a href="content.html">[教与学][图文]【教与学】打破思维定势走出误区...</a></li>
-<li><a href="content.html">[教学交流][图组]石家庄市教科所专家来找我校</a></li>
-</ul>
-</td>
-</tr>
-</table>
-<table width="60%" height="300px" align="center">
-<tr>
-<td>
-<img src="images/gnq.gif" alt="热点区域" usemap="#Map4">
-<map name="Map4" id="Map4">
-<area shape="rect" coords="144,133,250,240" href="index.html#河中视频">
-<area shape="rect" coords="12,129,119,239" href="index.html#通讯录">
-<area shape="rect" coords="9,6,116,113" href="index.html#数字校园">
-<area shape="rect" coords="140,9,243,114" href="index.html#班级空间">
-</map>
-</td>
-<td><img src="images/tup.gif"></td>
-<td><img src="images/tup.gif"></td>
-<td><img src="images/tup.gif"></td>
-</tr>
-</table>
-<tr>
-<td valign="top" height="50px">
-<img src="images/qq.gif" width="180px">
-</td>
-</tr><br/>
-<tr>
-<td valign="top" height="50px">
-<img src="images/weibo.gif" width="180px">
-<table width="100%" height="60px">
-<tr>
-<td background="images/foot_bg.gif">
-<table width="100%" height="60px">
-<tr>
-<td>
-</td>
-</tr>
-<tr>
-<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/foot_link.gif">
-   <ul >
-             <li><a href="content.html">邯郸市第一中学的网站</a></li>
-             <li><a href="content.html">邯郸市第一中学</a></li>
-             <li><a href="content.html">邯郸市第一中学</a></li>
-             <li><a href="content.html">邯郸市第一中学</a></li>
-             <li><a href="content.html">邯郸市第一中学</a></li>
-             </ul>
-            <td>
-       <img src="images/foot_school.gif">
-       <ul>
-       <li><a href="content.html">邯郸市第一中学的网站</a></li>
-       <li><a href="content.html">邯郸市第一中学</a></li>
-       <li><a href="content.html">邯郸市第一中学</a></li>
-       <li><a href="content.html">邯郸市第一中学</a></li>
-       <li><a href="content.html">邯郸市第一中学</a></li>
-       </ul>
-       <td>
-       <img src="images/foot_down.gif">
+<div id="header">
+<div id="banner">
+<img src="images/logo.png" id="logo">
+</div>
+<div id="nav">
 <ul>
-<li><a href="content.html">[资源中心]师生班主任成绩公示系统</a></li>
-<li><a href="content.html">[资源中心]高考资源网</a></li>
-<li><a href="content.html">[资源中心]中学学科网系统</a></li>
-<li><a href="content.html">[资源中心]全品高考网</a></li>
-<li><a href="content.html">[资源中心]志能网校园办公系统</a></li>
+<li><a href="#" id="h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;</a>
+<li><a href="#" id="w">|</a></li>
+<li><a href="#" id="w">&nbsp;中心概况 | </a></li>
+<li><a href="#" id="w">&nbsp;培训动态|</a></li>
+<li><a href="#" id="w">&nbsp;学术争鸣|</a></li>
+<li><a href="#" id="w">&nbsp;书坛新闻|</a></li>
+<li><a href="#" id="w">&nbsp;名家展厅|</a></li>
+<li><a href="#" id="w">&nbsp;燕赵风采|</a></li>
+<li><a href="#" id="w">&nbsp;经典解读与示范|</a></li>
+<li><a href="#" id="w">&nbsp;谏言互动|</a></li>
 </ul>
-<td>
-<img src="images/foot_count.gif">
-
+<input name="" type="text" class="input-box" id="sousuo">
+<input name="" type="submit" value="搜索" class="value" class="button" id="so" />
+</div>
+<div id="content">
+<div id="news_pic">
+<div id="p">
+<img src="images/news.jpg" id="tu">
+<div id="wenzi">“曲径通幽”书写人生传奇</div>
+<div id="news_list"></div>
+<img src="images/change.png" id="biaoti">
+<a href="#"><img src="images/more.png" id="more"></a></div>
+<div id="lo">
 <ul>
- <li><a href="content.html">总访问量：2600700</a></li>
- <li><a href="content.html">人总浏览量：3402028人</a></li>
-<li><a href="content.html">今日访问：2506人</a></li>
-<li><a href="content.html">日均访问：1653人</a></li>
-<li><a href="content.html">当前在线：21人</a></li>
+<li id="li"><a href="#">臻.妙--谢云、苏士澍在北京雍......</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [04-25]</span></li>
+<li id="li"><a href="#">“守望相助.尽责圆梦”中国书法家协会创作活...</a><span>[04-25]</span></li>
+<li id="li"><a href="#">中国书法出版传媒有限责任公司问共和</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04-25]</span></li>
+<li id="li"><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行</a><span>[04-25]</span></li>
+<li id="li"><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a><span>&nbsp;&nbsp;&nbsp;&nbsp;[04-25]</span></li>
+<li id="li"><a href="#">第一届兰亭学校师生书法作品获奖、入展名单</a><span>&nbsp;&nbsp;[04-25]</span></li>
+<li id="li"><a href="#">第25届中日友好作诗书交流展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04-25]</span></li></ul></div>
+<div id="newes_announce">
+<img src="images/board.png" id="one">
+</div>
+<img src="images/board_bg.png" id="list">
+<div id="wo">
+<ul>
+<li id="li"><a href="#">臻.妙--谢云、苏士澍在北京雍......</a></li>
+<li id="li"><a href="#">“守望相助.尽责圆梦”中国书法家协会创作活..</a></li>
+<li id="li"><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
+<li id="li"><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行</a></li>
+<li id="li"><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a></li>
+<li id="li"><a href="#">第一届兰亭学校师生书法作品获奖、入展名单</a></li>
 </ul>
-</td>
-</tr>
-<table width="100%" height="60px">
-<tr>
-<td background="images/foot_bg.gif">
-<table align="center" height="60px">
-<td><font color="white" width="100%" height="70px">Copyright © 2008－2013 http://www.zhengzhong.net.cn All Rights Reserved 网站备案：冀ICP备06006650号</font></td>
-</table>
-</td>
-</tr>
-</table>
+</div>
+<div>
+<img src="images/academic.png" id="content_bottom_left">
+<a href="#">
+<img src="images/more.png" id="two"></a>
+</div>
+<div>
+<ul id="lp">
+<li id="li"><a href="#">臻.妙--谢云、苏士澍在北京雍......</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2015-04-25]</span></li>
+<li id="li"><a href="#">“守望相助.尽责圆梦”中国书法家协会创作活..</a><span> [2015-04-25]</span></li>
+<li id="li"><a href="#">中国书法出版传媒有限责任公司问共和<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2015-04-25]</span></a></li>
+<li id="li"><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行<span>[2015-04-25]</span></a></li>
+<li id="li"><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a><span>&nbsp;&nbsp;&nbsp;&nbsp;[2015-04-25]</span></li>
+</ul>
+</div>
+<div id="xin">
+<div id="three"><a href="#">
+<img src="images/more.png" id="t"></a>
+<div>
+<ul id="ly">
+<li id="li"><a href="#">臻.妙--谢云、苏士澍在北京雍......</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2015-04-25]</span></li>
+<li id="li"><a href="#">“守望相助.尽责圆梦”中国书法家协会创作活..</a><span> [2015-04-25]</span></li>
+<li id="li"><a href="#">中国书法出版传媒有限责任公司问共和<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2015-04-25]</span></a></li>
+<li id="li"><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行<span>[2015-04-25]</span></a></li>
+<li id="li"><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a><span>&nbsp;&nbsp;&nbsp;&nbsp;[2015-04-25]</span></li>
+</ul>
+</div>
+<div id="zhan">
+<img src="images/fengcai_bg1.png" id="bei">
+</div>
+</div>
+<div id="lk">
+<ul>
+<li><a href="#"><img src="images/fengcai1.jpg" id="pai"></a>
+</li>
+<li><a href="#"><img src="images/fengcai2.jpg" id="y"></a></li>
+<li><a href="#"><img src="images/fengcai3.jpg" id="v"></a></li>
+<li><a href="#"><img src="images/fengcai4.jpg" id="v"></a></li>
+</ul>
+</div>
+<div id="content_bottom_right"><div id="yanse"><span id="se">欧阳中石</span>，山东省肥城市人，著名文化学<br/>者、书法家、书法教育家。早年拜在京剧<br/><div id="lun">大师奚啸伯的门下。</div><div id="fu">现任首都师范大学教<br/>授、博士生导师、中国书法文化研究所所<br/>长.北京唐风美术馆名誉馆长.</div></div></div>
+<div id="ting"></div>
+<img src="images/show.png" id="ting"></div>
+<img src="images/mingjia.jpg" id="ren"></div>
+<a href="#"><img src="images/view.png" id="fi"></a>
+</div>
+</div>
+<div id="foot">
+<img src="images/foot.gif" id="jing">
+<div id="ri">
+<ul>
+<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱 | </a></li>
+<li><a href="#">&nbsp;设为首页 |</a></li>
+<li><a href="#">&nbsp;在线调查 |</a></li>
+<li><a href="#">&nbsp;加入收藏 |</a></li>
+<li><a href="#">&nbsp;网站地图 |</a></li>
+<li><a href="#">&nbsp;关于我们 |</a></li>
+</ul>
+</div>
+<img src="images/line.jpg" id="ok">
+<div id="wan">Copyr ght@2013-2014 Hebshufajia.com,All Rights Reserved<br/>冀ICP备05067795号 冀公网安备110402440008号</div>
+</div>
 </body>
 </html>
-

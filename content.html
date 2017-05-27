@@ -1,162 +1,331 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-     <title>网页制作</title>
-     <meta charset="utf-8">
- <style type="text/css">
-      html{
-          font:12px 'Arial';
-          color:gray;
-          line-height: 2em;
-      }
-      .b{
-          color:#fab306;
-      }
-      #b:hover{
-        text-decoration: none;
+	<title>页面布局</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+   body{
+   	background-image: url(images/bodybg.gif);
+     font:12px "宋体";
+     text-align: center;
+     color:#522a06; 
+     padding: 0px;
+     text-align: center;  
+}
+a:link{
+      color:#522a06;
+      text-decoration: none;
+}
+a：hover{
 
-      }
-      .a{
-          color:white;
-      }
-      a{
-          color:#727272;
-      }
-      a:link{
-          text-decoration: none;   
-      }
-      .a:hover{
-          text-decoration: none;
-          color:#b9f605;
-      }
-      a:hover{
-          text-decoration: underline;
-      }
-      .c{
-          font:bolder 14px;
-          color:#b9f605;
-      }
-      .c:hover{
-            text-decoration: none;
-      }
-      .td{
-          font:20px "微软雅黑";
-          color:#686868;
-      }
-      .ta{
-          font:12px "Arial";
-          color:#a9a8a8;
-      }
-      #td{
-          color:#22a3d3;
-      }
-      #indent{
-          text-indent: 2em;
-      }
-      </style>
+     text-decoration: underline;
+}
 
+
+#header{
+         height: 205px;
+        background-repeat: no-repeat;
+        background-image: url(images/bg.gif);
+        background-position:top center;
+
+     
+}
+#banner{
+         
+     height: 164px;
+}
+#logo{
+     position: absolute;
+     top:38px;
+     left:120px;
+}
+#nav{
+     height: 40px;
+     background-image: url(images/nav.jpg);
+     float:left;
+     width:100%;
+     }
+li{
+	float:left;
+	list-style-type:none;
+}
+#w{
+     font-weight:1px;
+     color:#fff; 
+
+}
+#w:hover{
+	color:#f9f603;
+    text-decoration:underline;
+}
+#h{
+    color:#f9f603;
+}
+#sousuo{
+    height: 19px;
+    width:140px;
+    background-color: #f8f5ee;
+}
+#so{
+    width: 44px;
+    height: 21px;
+    background-color: #000;
+}
+.value{
+     color:#fff;
+     border:1px solid #f8f5ee;
+}
+#top{
+	float: left;
+	position: relative;
+	left:180px;
+	top:15px;
+}
+#title{
+	font:16px;
+	line-height: 45px;
+	height: 45px;
+	text-align: center;
+	position: relative;
+	top:30px;
+	left:-310px;	
+}
+#border{
+	border-bottom: 1px solid;
+	color:#c9baa5;
+	height:64px;
+	width:600px;
+	position: relative;
+	left:160px;
+}
+#s{
+	position: relative;
+	left:-245px;
+    top:15px;
+
+}
+#zheng{
+	position: relative;
+	left:-210px;
+	top:25px;
+}
+#tu{
+	margin-top:45px;
+	position:relative;
+	left:-190px;
+	width:440px;
+	height:280px; 
+}
+#er{
+	line-height: 28px;
+	width:540px;
+	height:200px;
+	position: relative;
+	left: 178px;
+	margin-top:20px;
+}
+#bo{
+	border-top:1px solid;
+	color:#c9baa5;
+	height:64px;
+	width:600px;
+	float:left;
+}
+#ye{
+	float:left;
+	position: relative;
+	left:-420px;
+	top:-45px;
+}
+#shu{
+     float:left;
+     position: relative;
+     left:-320px;
+     top:-50px;
+}
+#di{
+	border:1px solid #c9baa5;
+	background-image: url(images/bg.png);
+	margin-bottom: 20px;
+	width:280px;
+	height:200px;
+	float:right;
+	position: relative;
+	right:250px;
+	position: absolute;
+	top:250px;
+}
+#zui{
+	background-image: url(images/news.png);
+	margin-bottom:10px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+#biao{
+	line-height: 30px;
+	margin-left: 13px;
+	position: relative;
+	top:-25px;
+	left: -20px;
+}
+#five{
+	width: 280px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	
+}
+#ming{
+      margin-top: 25px;
+      margin-bottom:15px;
+      text-align: center;
+      position: absolute;
+      right:335px;
+      top:480px;
+
+}
+#kuang{
+	height: 362px;
+	position: absolute;
+	right: 255px;
+	top:545px;
+}
+#ren{
+   position: absolute;
+   right:280px;
+   top:545px;
+   margin-top: 15px;
+}
+#zi{
+	position: absolute;
+	right:290px;
+	top:760px;
+	width:224px;
+	height: 187px;
+	line-height: 20px;
+
+}
+span{
+	font-weight: 1px;
+	color:#b70000;
+}
+#shi{
+	position: absolute;
+	right:460px;
+	top:875px;
+}
+#twos{
+	position: absolute;
+	right: 435px;
+	top:875px;
+}
+#much{
+	position: absolute;
+	right: 390px;
+	top:875px;
+	margin-bottom:2px;
+}
+#foot{
+     height:105px;
+     clear:left;
+     clear:right;
+}
+#jing{
+    background-image: url(images/foot.gif);
+    width:1360px;
+}
+#ri{
+    position:relative;
+    top:-100px;
+    left:400px;
+    width:500px;
+
+}
+#ok{
+    position: relative;
+    left:400px;
+    top:-100px;
+}
+#wan{
+	position: relative;
+	left:500px;
+	top:-90px;
+}
+#y:hover{
+     text-decoration: underline;
+}
+</style>
 </head>
-<body> 
-<table width="100%">
-<td background="images/bg.gif" width="100%" height="300px">
-<table width="60%" height="250px" align="center">
-<tr>
-<td background="images/banner.jpg" width="60%" height="295px" align="center">
-<table width="100%" height="290px">
-<tr>
-<td height="15px">
-</td>
-</tr>
-<tr valign="top">
-<td><a href="content.html" class="c">首页</a></td>
-<td><a href="content.html" class="a">学校概况</a></td>
-<td><a href="content.html" class="a">规章制度</a></td>
-<td><a href="content.html" class="a">德育网</a></td>
-<td><a href="content.html" class="a">教研网</a></td>
-<td><a href="content.html" class="a">名师风采</a></td>
-<td><a href="content.html" class="a">高考专栏</a></td>
-<td><a href="content.html" class="a">图书馆</a></td>
-<td><a href="content.html" class="a">校友会</a></td>
-<td><a href="content.html" class="a">网站留言</a></td>
-<td><a href="content.html" class="a">查询系统</a></td>
-<td><a href="content.html" class="b" id="b">东校区</a></td>
-</tr>
-</table>
-</td>
-</table>
-<table background-color:#f0f0f0>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/pot.png">河北中学首页-学校概况-校园文化&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/search_bg1.gif"><img src="images/search_button.gif">
-</td>
-</tr>
-</td>
-</table>
-</table>
-</td>
-</table>
-</td>
-</table>
-
-<table width="60%" height="200px" align="center">
-<tr>
-<td width="70%" valign="top"></td>
-<td width="30%" valign="top"><img src="images/hot.gif"></td>
-</tr>
-<tr>
-<td width="70%" align="center" valign="top" class="td"><font size="4">【家长学校1306期】我校组织学生立志踏青活动</font>
-<hr/>
-</td>
-<td rowspan="3">
-<ul type="square">
-<li><a href="content.html">我校举办五四表彰大会暨成人仪式</a></li>
-<li><a href="content.html">河北中学4月份家长开放日公开</a></li>
-<li><a href="content.html">教育处组织学生收看《2013年中小学...》</a></li>
-<li><a href="content.html">我校组织高一年级立志踏青活动</a></li>
+<body>
+<body>
+<div id="header">
+<div id="banner">
+<img src="images/logo.png" id="logo">
+</div>
+<div id="nav">
+<ul>
+<li><a href="#" id="h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;</a>
+<li><a href="#" id="w">|</a></li>
+<li><a href="#" id="w">&nbsp;中心概况 | </a></li>
+<li><a href="#" id="w">&nbsp;培训动态|</a></li>
+<li><a href="#" id="w">&nbsp;学术争鸣|</a></li>
+<li><a href="#" id="w">&nbsp;书坛新闻|</a></li>
+<li><a href="#" id="w">&nbsp;名家展厅|</a></li>
+<li><a href="#" id="w">&nbsp;燕赵风采|</a></li>
+<li><a href="#" id="w">&nbsp;经典解读与示范|</a></li>
+<li><a href="#" id="w">&nbsp;谏言互动|</a></li>
 </ul>
-</td>
-</tr>
-<tr>
-<td width="70%" align="center" class="ta">作者：教育处 点击数：878 更新时间：2013-4-15</td>
-</tr>
-<tr>
-<td><h4>2013年4月14日，教育处与高一年级共同组织了高一年级及高二实验部学生“励志踏青”活动。</h4></td>
-</tr>
-<tr>
-<td width="70%" rowspan="7" id="indent"><h4>此次“励志踏青”活动，行程约30华里，历时5个小时。同学们从学校大门南行，左转至燕赵大街直行经历史文化街出南城门过子龙大街，在南桥头右转进入汊河湿地公园景区，然后向西自由活动到神农庄园停车场集合，沿107国道北行至镇远路右转，沿承德街左转北行，经恒山西路返回学校</h4><img src="images/newspic.jpg"/>
-<h4>同学们在此次活动中展现出学校和班级的良好精神风貌。一路上，校旗班旗迎风招展，队伍整齐，每个人脸上都洋溢着青春的笑容。沿途和景区，随处都可以看到同学们捡拾垃圾的身影，互帮互助的身影。在景区，同学们尽情的拥抱大自然，呼吸着自由的空气，和好朋友合影留念。此次活动使同学们在徒步远行中砥砺了意志品质，于集体踏青时领略了潮光水色</h4><h4>此次活动经教育处和高一年级组缜密筹划、精心组织，全体班主任和随队老师的通力配合，在校医校车有力的后勤保障下，获得圆满成功！！</h4>
-<hr/>
-</td>
-</tr>
-<tr>
-<td width="30%" valign="top"><img src="images/tjpic.gif"></td>
-</tr>
-<tr>
-<td width="30%"><img src="images/pic.gif"></td>
-</tr>
-<tr>
-<td width="30%"><font color="blue">[图组]我校被评为“石家庄市2010-2011年度文化单位”</font></td>
-</tr>
-<tr>
-<td width="30%"><img src="images/pic.gif"></td>
-</tr>
-<tr>
-<td width="30%"><font color="blue">[图组]我校被评为“石家庄市2010-2011年度文明单位”</font></td>
-</tr>
-<tr>
-<td width="30%"><img src="images/pic.gif"></td>
-</tr>
-<td width="70%" id="td">上一篇：<a href="content.html">校园大扫除活动</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下一篇：<a href="content.html">老红军来我校诉说革命历程</a></td>
-<td width="30%"><font color="blue">[组图]我校被评为“石家庄市2010-2011年度文明单位”</font></td>
-</tr>
-</table>
-<table width="100%" height="100px">
-<tr>
-<td background="images/foot_bg.gif">
-<table align="center">
-<td><font color="white">Copyright © 2008－2013 http://www.zhengzhong.net.cn All Rights Reserved 网站备案：冀ICP备06006650号</font></td>
-</table>
-</td>
-</tr>
-</table>
+<input name="" type="text" class="input-box" id="sousuo">
+<input name="" type="submit" value="搜索" class="value" class="button" id="so" />
+</div>
+<div id="top">当前位置:首页 > 书坛新闻</div>
+<div id="title">河北省书协召开2016年工作会议</div>
+<div id="border"></div>
+<div id="s">河北文艺网 2016-03-15</div>
+<div id="zheng"><p>3月11日，“2016河北省书法家协会工作会议”在石家庄召开。河北省文联党组书记谢小勇、中国书协副主<br/>席、河北省书协主席刘金凯、河北省委宣传部文艺处长王振儒、河北省书协副主席兼秘书长刘月卯、副主席郎<br/>岗峰、陈茂才、任桂子、范硕、肖建科、昊占良等、河北省书协主席团委员、副秘书长、各地市书协负责人、<br/>优秀书家代表近百人参加了会议。刘月卯主持会议。</p></div>
+<div><img src="images/huiyi.jpg" id="tu"></div>
+<div id="er">&nbsp;&nbsp;会议首先传达学习了中宣部部长刘奇葆在中国书协第七次全国代表大会开幕式上的讲话摘要、省委常委、宣传部长长田利在全省宣传工作位以上的讲话摘要。王振儒代表省委宣传部讲话。<p>&nbsp;&nbsp;会议随后对2015年度先进单位和先进个人进行了表彰。廊坊、沧州、石家庄、保定、邢台、承德、秦皇岛、邯郸等市书法家协会被授予先进单位，省直、张家口衡水基层书协被授予服务基层先进单位。</p>
+<div id="bo"></div>
+</div>
+<div id="ye"><a href="#" id="y">上一篇:</a> <a href="#">弘扬优秀传统文化是媒体的责任</a></div>
+<div id="shu"<a href="#" id="y">下一篇:</a><a href="#">河北省文联2016年部门预算数据分析</a></div>
+<div id="di">
+<div><img src=" images/news.png" id="zui"></div>
+<div><ul id="biao">
+<li><a href="#" id="y">河北省群众书法大展</a></li>
+<li><a href="#" id="y">河北省文联2016年预算情况</a></li>
+<li><a href="#" id="y">河北省书协在第十一届书法展上创造佳绩</a></li>
+<li><a href="#" id="y">省书协召开机关作风整顿动员大会</a></li>
+<li><a href="#" id="y">河北省书协启动书法进万家送万福活动</a></li>
+</ul></div>
+</div>
+<div id="five">
+<div>
+<img src="images/show.png" id="ming">
+</div>
+<div>
+<img src="images/show_bg.png" id="kuang">
+<img src="images/mingjia.jpg" id="ren"></div>
+<div id="zi">
+<span>欧阳中石</span>山东省肥城市人，著名文化学者、书法家、书法教育家。早年拜在京剧大师奚啸伯的门下。现任首都师范大学教授、博士生导师、中国书法家文化研究所所长，北京唐风美术馆名誉馆长。
+</div>
+<div id="shi"><a href="#"><img src="images/before.png"></a></div>
+<div id="twos"><a href="#"><img src="images/next.png"></a></div>
+<div id="much"><a href="#"><img src="images/view.png"></a></div>
+<div id="foot">
+<img src="images/foot.gif" id="jing">
+<div><ul id="ri">
+<li><a href="#" id="y">电子信箱 |</a></li>
+<li><a href="#" id="y">&nbsp;设为首页 |</a></li>
+<li><a href="#" id="y">&nbsp;在线调查 |</a></li>
+<li><a href="#" id="y">&nbsp;加入收藏 |</a></li>
+<li><a href="#" id="y">&nbsp;网站地图 |</a></li>
+<li><a href="#" id="y">&nbsp;关于我们 |</a></li>
+</ul>
+</div>
+<div><img src="images/line.jpg" id="ok"></div>
+<div id="wan">Copyr ght@2013-2014 Hebshufajia.com,All Rights Reserved<br/>冀ICP备05067795号 冀公网安备110402440008号</div>
+</div>
+
 </body>
 </html>
