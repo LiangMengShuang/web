@@ -1,0 +1,167 @@
+   *{
+		margin: 0;
+		padding:0;
+	}
+	ul,li{
+		list-style: none;
+	}
+  #q{
+       width:50px;
+       height:780px;       
+   } 
+ #w{
+ 	 width:50px;
+     height:780px;
+     float:right;
+     position:relative;
+     top:-400px;
+ }
+ #banner{
+ 	width: 1200px;
+ 	height: 120px;
+ 	margin-left:10px;
+ 	position: relative;
+ 	top:-400px;
+ 	left:30px;
+ }
+ #do{
+ 	width: 1200px;
+ 	height:45px;
+ 	position: relative;
+ 	left:40px;
+ 	top:-390px;
+ }
+ a{
+ 	font:24px"华文隶书";
+ 	color:white;
+ 	text-decoration: none;
+ }
+a:hover{
+	color:red;
+}
+#li{
+    float:left;
+    position: relative;
+    top:-405px;
+    left:45px;
+}
+#so{
+    width: 44px;
+    height: 21px;
+    background-color:green;
+     position: relative;
+    top:-405px;
+    left:130px;
+    
+
+}
+#sousuo{
+    height: 19px;
+    width:140px;
+    background-color:red;
+    position: relative;
+    top:-405px;
+    left:120px;
+
+}
+#tu{
+	position: relative;
+	left:75px;
+	top:-380px;
+}
+#t1{
+	position: relative;
+	left:80px;
+	top:-480px;
+}
+#t2{
+	position: relative;
+	left:210px;
+	top:-568px;
+
+}
+#t{
+	position: relative;
+	left:350px;
+	top:-655px;
+}
+#y{
+	font:45px "华文行楷";
+	color:orange;
+	position: absolute;
+	left:200px;
+	top:230px;
+
+}
+#i{
+	font:45px "华文行楷";
+	color:red;
+	position: absolute;
+	left:460px;
+	top:230px;
+}
+#o{
+	font:45px "华文行楷";
+	color:orange;
+	position: absolute;
+	right:520px;
+	top:230px;
+}
+#p{
+	font:45px "华文行楷";
+	color: red;
+	position: absolute;
+	right:200px;
+	top:230px;
+}
+#yo{
+   width:1100px;
+   height: 300px;
+   opacity: 0.5;
+   position: absolute;
+   left:60px;
+   top:210px;
+}
+#ni{
+	width: 1100px;
+ 	height:45px;
+ 	position: relative;
+ 	top:-630px;
+ 	left:61px;
+}
+#nb{
+	position: absolute;
+	left:165px;
+	top:430px;
+	font:30px "华文行楷";
+}
+#mb{
+	position: relative;
+	left:140px;
+	top:-1234px;
+}
+#xo{
+	width:430px;
+	height:240px;
+	float:right;
+	position: relative;
+	left:-100px;
+	top:-710px;
+}
+#di{
+	width:800px;
+   height:120px;
+   position: relative;
+   left:130px;
+   top:-560px;
+}
+#dress{
+	position: absolute;
+	left:560px;
+	top:800px;
+}
+#ss{
+	position: absolute;
+	left:270px;
+	top:840px;
+}

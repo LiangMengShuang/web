@@ -1,0 +1,31 @@
+在编写页面的样式和CSS布局时，最为核心的技术是：Float实现布局
+相对位置和绝对位置进行辅助的布局
+核心源代码：*{
+		margin: 0;
+		padding:0;
+	}
+	ul,li{
+		list-style: none;
+	}
+   a{
+ 	font:24px "华文隶书";
+ 	color:white;
+ 	text-decoration: none;
+ }
+添加CSS样式：
+通用类属性：背景相关类属性：
+backgroung-color:
+列表的属性：
+ul,li{
+        list-style:none}
+
+超链接通用类属性：
+ a{
+ 	font:24px "华文隶书";
+ 	color:white;
+ 	text-decoration: none;
+ }
+a:hover{
+	color:red;
+}
+
