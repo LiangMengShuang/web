@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>实验二</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+   input{
+   	width:40px;
+   	height:40px;
+   }
+ .q{
+
+ 	width:199px;
+ 	height:83px;
+ 	text-align: right;
+ }
+
+	</style>
+	<script type="text/javascript" src="JS/实验二.JS">
+	</script>
+</head>
+<body onload="set()">
+<form name="cal">
+<table border="1px" cellpadding="0px" width="300px" height="300px">
+<tr><td colspan="3px" align="center">
+<input type="text" id="result" class="q">
+</td>
+<td align="center">
+<input type="button" id="display" value="c" onclick="clearData()">
+</td>
+</tr>
+<tr><td align="center"><input type="button" value="1" onclick="showData('1')"></td>
+<td align="center"><input type="button"  value="2" onclick="showData('2')"></td>
+<td align="center"><input type="button" value="3" onclick="showData('3')"></td>
+<td align="center"><input type="button"  value="+" onmousedown="showData('+')" onclick="setOper('+')">
+</td>
+</tr>
+<tr><td align="center"><input type="button" value="4" onclick="showData('4')"></td>
+<td align="center"><input type="button" value="5" onclick="showData('5')"></td>
+<td align="center"><input type="button" value="6" onclick="showData('6')"></td>
+<td align="center"><input type="button" value="-" onmousedown="showData('-')" onclick="setOper('-')"></td>
+</tr>
+<tr><td align="center"><input type="button" value="7" onclick="showData('7')"></td>
+<td align="center"><input type="button" value="8" onclick="showData('8')"></td>
+<td align="center"><input type="button" value="9" onclick="showData('9')"></td>
+<td align="center"><input type="button" value="*" onmousedown="showData('*')" onclick="setOper('*')"></td>
+</tr>
+<tr><td align="center"><input type="button" value="0" onclick="showData('0')"></td>
+<td align="center"><input type="button" value="." onclick="showData('.')"></td>
+<td align="center"><input type="button" value="=" onclick="setOper('=')"></td>
+<td align="center"><input type="button" value="/" onmousedown="showData('/')" onclick="setOper('/')"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
