@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    #main{
+			width: 600px;
+			height: 650px;
+		}
+		#title{
+			width: 600px;
+			height: 30px;
+			background-image: url(images/bg.jpg);
+			margin: 10px;
+		}
+		#star{
+			width: 600px;
+			height: 30px;
+			margin: 10px;
+		}
+		#text{
+			margin: 10px;
+		}
+		#select{
+			text-align: right;
+			width: 600;
+			height: 30px;
+		}
+	</style>
+	<script type="text/javascript">
+		function starPic(i)
+		{
+			var n=parseInt(i);
+			if(n<=2)
+			{
+				for(var j=1;j<=n;j++)
+				{
+					var m=String(j);
+					document.getElementById(m).src="images/star1.png";
+				}
+				    document.getElementById("txt").value="亲！您给了一个差评哦~我们会继续努力的";
+		    }
+		    else
+		    {
+		    	for(var j=1;j<=n;j++)
+				{
+					var m=String(j);
+					document.getElementById(m).src="images/star2.png";
+				}
+				    document.getElementById("txt").value="谢谢您的好评！";
+		    }
+		}
+		var con=false;
+		function hide(i)
+		{
+			var n=parseInt(i);
+			
+				for(var j=1;j<=n;j++)
+				{
+					var m=String(6-j);
+					document.getElementById(m).src="images/star0.png";
+				}
+		}
+	</script>
+</head>
+<body>
+<div id=main>
+
+		<div id="title">
+			<p>宝贝与描述相符（打分匿名）</p>
+		</div>
+		<div id="star">
+			<img src="images/star0.png" id="1"  name="1" onmousemove="starPic('1');" onmouseout="hide('5');"onmousemove="5";onmouseout="hide('1')" >
+			<img src="images/star0.png" id="2" name="2" onmousemove=" starPic('2');" onmouseout="hide('4');"onmousemove="4";onmouseout="hide('2')">
+			<img src="images/star0.png" id="3" name="3" onmousemove="starPic('3');" onmouseout="hide('3');" onmousemove="3";onmouseout="hide('3')">
+			<img src="images/star0.png" id="4" name="4" onmousemove="starPic('4');" onmouseout="hide('2');" onmousemove="2";onmouseout="hide('4')">
+			<img src="images/star0.png" id="5" name="5" onmousemove="starPic('5');" onmouseout="hide('1');" onmousemove="1";onmouseout="hide('5')">
+		</div>
+		<div id="text">
+			<textarea rows="15" cols="69" id="txt"></textarea value="">
+			<div id="select">
+			<select name="sel" class="select">
+				<option value="public">公开评论</option>
+				<option value="pravite">匿名评论</option>
+			<lect>
+			</div>
+		</div>
+	</div>
+</body>
+<ml>
