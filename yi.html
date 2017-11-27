@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图片自动滚动</title>
+<style type="text/css">
+#picScroll{                                             
+         white-space: nowrap;                  
+         overflow:hidden;                         
+         width: 600px; 
+     }
+img{
+width:600px;
+} 
+</style>
+</head>
+<body onload="zhouqi()">                      
+<div id="picScroll" onmouseover="stop()" onmouseout="zhouqi()">
+<span id="picScrol1">
+<img src="images/1.jpg">
+<img src="images/2.jpg">
+<img src="images/3.jpg">
+<img src="images/4.jpg">
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
+</span>
+<span id="picScrol2">
+<img src="images/1.jpg">                      
+<img src="images/2.jpg">                       
+<img src="images/3.jpg">   
+<img src="images/4.jpg">
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
+</span>
+</div>
+<script type="text/javascript">
+var one=document.getElementById('picScroll');          
+var two=document.getElementById('picScrol1');       
+var three=document.getElementById('picScrol2');
+function changeToLeft(){
+if(one.scrollLeft-two.offsetWidth>0)
+one.scrollLeft=0;
+else
+one.scrollLeft+=1;                                  
+}
+function zhouqi(){                                                   
+t=setInterval("changeToLeft()",10);
+}
+function stop(){                                                     
+clearInterval(t);
+}
+</script>
+</body>
+</html>
+
